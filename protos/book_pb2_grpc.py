@@ -42,12 +42,22 @@ class BookServiceStub(object):
         self.CreateBook = channel.unary_unary(
                 '/book.BookService/CreateBook',
                 request_serializer=protos_dot_book__pb2.CreateBookRequest.SerializeToString,
-                response_deserializer=protos_dot_book__pb2.CreateBookResponse.FromString,
+                response_deserializer=protos_dot_book__pb2.SingleBookResponse.FromString,
                 _registered_method=True)
         self.RetrieveBook = channel.unary_unary(
                 '/book.BookService/RetrieveBook',
                 request_serializer=protos_dot_book__pb2.RetrieveBookRequest.SerializeToString,
-                response_deserializer=protos_dot_book__pb2.RetrieveBookResponse.FromString,
+                response_deserializer=protos_dot_book__pb2.SingleBookResponse.FromString,
+                _registered_method=True)
+        self.UpdateBook = channel.unary_unary(
+                '/book.BookService/UpdateBook',
+                request_serializer=protos_dot_book__pb2.UpdateBookRequest.SerializeToString,
+                response_deserializer=protos_dot_book__pb2.SingleBookResponse.FromString,
+                _registered_method=True)
+        self.DeleteBook = channel.unary_unary(
+                '/book.BookService/DeleteBook',
+                request_serializer=protos_dot_book__pb2.DeleteBookRequest.SerializeToString,
+                response_deserializer=protos_dot_book__pb2.SingleBookResponse.FromString,
                 _registered_method=True)
 
 
@@ -66,18 +76,40 @@ class BookServiceServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def UpdateBook(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def DeleteBook(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_BookServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
             'CreateBook': grpc.unary_unary_rpc_method_handler(
                     servicer.CreateBook,
                     request_deserializer=protos_dot_book__pb2.CreateBookRequest.FromString,
-                    response_serializer=protos_dot_book__pb2.CreateBookResponse.SerializeToString,
+                    response_serializer=protos_dot_book__pb2.SingleBookResponse.SerializeToString,
             ),
             'RetrieveBook': grpc.unary_unary_rpc_method_handler(
                     servicer.RetrieveBook,
                     request_deserializer=protos_dot_book__pb2.RetrieveBookRequest.FromString,
-                    response_serializer=protos_dot_book__pb2.RetrieveBookResponse.SerializeToString,
+                    response_serializer=protos_dot_book__pb2.SingleBookResponse.SerializeToString,
+            ),
+            'UpdateBook': grpc.unary_unary_rpc_method_handler(
+                    servicer.UpdateBook,
+                    request_deserializer=protos_dot_book__pb2.UpdateBookRequest.FromString,
+                    response_serializer=protos_dot_book__pb2.SingleBookResponse.SerializeToString,
+            ),
+            'DeleteBook': grpc.unary_unary_rpc_method_handler(
+                    servicer.DeleteBook,
+                    request_deserializer=protos_dot_book__pb2.DeleteBookRequest.FromString,
+                    response_serializer=protos_dot_book__pb2.SingleBookResponse.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -106,7 +138,7 @@ class BookService(object):
             target,
             '/book.BookService/CreateBook',
             protos_dot_book__pb2.CreateBookRequest.SerializeToString,
-            protos_dot_book__pb2.CreateBookResponse.FromString,
+            protos_dot_book__pb2.SingleBookResponse.FromString,
             options,
             channel_credentials,
             insecure,
@@ -133,7 +165,61 @@ class BookService(object):
             target,
             '/book.BookService/RetrieveBook',
             protos_dot_book__pb2.RetrieveBookRequest.SerializeToString,
-            protos_dot_book__pb2.RetrieveBookResponse.FromString,
+            protos_dot_book__pb2.SingleBookResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def UpdateBook(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/book.BookService/UpdateBook',
+            protos_dot_book__pb2.UpdateBookRequest.SerializeToString,
+            protos_dot_book__pb2.SingleBookResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def DeleteBook(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/book.BookService/DeleteBook',
+            protos_dot_book__pb2.DeleteBookRequest.SerializeToString,
+            protos_dot_book__pb2.SingleBookResponse.FromString,
             options,
             channel_credentials,
             insecure,

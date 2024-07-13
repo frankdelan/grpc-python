@@ -14,20 +14,29 @@ message CreateBookRequest {
     uint32 author_id = 2;
 }
 
-message CreateBookResponse {
-    Book book = 1;
-}
-
-
 message RetrieveBookRequest {
     uint32 id = 1;
 }
 
-message RetrieveBookResponse {
+message UpdateBookRequest {
+    uint32 id = 1;
+    string title = 2;
+    uint32 author_id = 3;
+}
+
+message DeleteBookRequest {
+    uint32 id = 1;
+}
+
+
+message SingleBookResponse {
     Book book = 1;
 }
 
+
 service BookService {
-    rpc CreateBook(CreateBookRequest) returns (CreateBookResponse);
-    rpc RetrieveBook(RetrieveBookRequest) returns (RetrieveBookResponse);
+    rpc CreateBook(CreateBookRequest) returns (SingleBookResponse);
+    rpc RetrieveBook(RetrieveBookRequest) returns (SingleBookResponse);
+    rpc UpdateBook(UpdateBookRequest) returns (SingleBookResponse);
+    rpc DeleteBook(DeleteBookRequest) returns (SingleBookResponse);
 }

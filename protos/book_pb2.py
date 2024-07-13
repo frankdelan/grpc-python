@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11protos/book.proto\x12\x04\x62ook\"4\n\x04\x42ook\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"5\n\x11\x43reateBookRequest\x12\r\n\x05title\x18\x01 \x01(\t\x12\x11\n\tauthor_id\x18\x02 \x01(\r\".\n\x12\x43reateBookResponse\x12\x18\n\x04\x62ook\x18\x01 \x01(\x0b\x32\n.book.Book\"!\n\x13RetrieveBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\"0\n\x14RetrieveBookResponse\x12\x18\n\x04\x62ook\x18\x01 \x01(\x0b\x32\n.book.Book2\x95\x01\n\x0b\x42ookService\x12?\n\nCreateBook\x12\x17.book.CreateBookRequest\x1a\x18.book.CreateBookResponse\x12\x45\n\x0cRetrieveBook\x12\x19.book.RetrieveBookRequest\x1a\x1a.book.RetrieveBookResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11protos/book.proto\x12\x04\x62ook\"4\n\x04\x42ook\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"5\n\x11\x43reateBookRequest\x12\r\n\x05title\x18\x01 \x01(\t\x12\x11\n\tauthor_id\x18\x02 \x01(\r\"!\n\x13RetrieveBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\"A\n\x11UpdateBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"\x1f\n\x11\x44\x65leteBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\".\n\x12SingleBookResponse\x12\x18\n\x04\x62ook\x18\x01 \x01(\x0b\x32\n.book.Book2\x95\x02\n\x0b\x42ookService\x12?\n\nCreateBook\x12\x17.book.CreateBookRequest\x1a\x18.book.SingleBookResponse\x12\x43\n\x0cRetrieveBook\x12\x19.book.RetrieveBookRequest\x1a\x18.book.SingleBookResponse\x12?\n\nUpdateBook\x12\x17.book.UpdateBookRequest\x1a\x18.book.SingleBookResponse\x12?\n\nDeleteBook\x12\x17.book.DeleteBookRequest\x1a\x18.book.SingleBookResponseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -25,12 +25,14 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_BOOK']._serialized_end=79
   _globals['_CREATEBOOKREQUEST']._serialized_start=81
   _globals['_CREATEBOOKREQUEST']._serialized_end=134
-  _globals['_CREATEBOOKRESPONSE']._serialized_start=136
-  _globals['_CREATEBOOKRESPONSE']._serialized_end=182
-  _globals['_RETRIEVEBOOKREQUEST']._serialized_start=184
-  _globals['_RETRIEVEBOOKREQUEST']._serialized_end=217
-  _globals['_RETRIEVEBOOKRESPONSE']._serialized_start=219
-  _globals['_RETRIEVEBOOKRESPONSE']._serialized_end=267
-  _globals['_BOOKSERVICE']._serialized_start=270
-  _globals['_BOOKSERVICE']._serialized_end=419
+  _globals['_RETRIEVEBOOKREQUEST']._serialized_start=136
+  _globals['_RETRIEVEBOOKREQUEST']._serialized_end=169
+  _globals['_UPDATEBOOKREQUEST']._serialized_start=171
+  _globals['_UPDATEBOOKREQUEST']._serialized_end=236
+  _globals['_DELETEBOOKREQUEST']._serialized_start=238
+  _globals['_DELETEBOOKREQUEST']._serialized_end=269
+  _globals['_SINGLEBOOKRESPONSE']._serialized_start=271
+  _globals['_SINGLEBOOKRESPONSE']._serialized_end=317
+  _globals['_BOOKSERVICE']._serialized_start=320
+  _globals['_BOOKSERVICE']._serialized_end=597
 # @@protoc_insertion_point(module_scope)

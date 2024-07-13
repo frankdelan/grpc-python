@@ -26,9 +26,9 @@ class BaseRepository(ABC):
 class DatabaseRepository(BaseRepository):
     model = None
 
-    async def create(self, **kwargs):
+    async def create(self, values: dict):
         async with async_session_factory() as session:
-            stmt = insert(self.model).values(**kwargs).returning(self.model)
+            stmt = insert(self.model).values(**values).returning(self.model)
             obj = await session.execute(stmt)
             await session.commit()
             return obj.scalar_one_or_none()
@@ -39,9 +39,9 @@ class DatabaseRepository(BaseRepository):
             result = await session.execute(query)
             return result.scalar_one_or_none()
 
-    async def update(self, id: int, **kwargs):
+    async def update(self, values: dict):
         async with async_session_factory() as session:
-            query = update(self.model).filter_by(id=id).values(**kwargs).returning(self.model)
+            query = update(self.model).filter_by(id=values.pop('id')).values(**values).returning(self.model)
             obj = await session.execute(query)
             await session.commit()
             return obj.scalar_one_or_none()

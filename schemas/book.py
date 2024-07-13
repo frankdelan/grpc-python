@@ -7,6 +7,6 @@ class BookSchema(BaseModel):
     author_id: int
 
 
-class CreateBookSchema(BaseModel):
+class CreateUpdateBookSchema(BaseModel):
     title: str
     author_id: int
