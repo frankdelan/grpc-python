@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package author;
+
+
+message Author {
+    uint32 id = 1;
+    string name = 2;
+    uint32 age = 3;
+    bool alive = 4;
+}
+
+message CreateAuthorRequest{
+    string name = 1;
+    uint32 age = 2;
+    bool alive = 3;
+}
+
+message CreateAuthorResponse{
+    Author author = 1;
+}
+
+message RetrieveAuthorRequest {
+    uint32 id = 1;
+}
+
+message RetrieveAuthorResponse {
+    Author author = 1;
+}
+
+service AuthorService {
+    rpc CreateAuthor(CreateAuthorRequest) returns (CreateAuthorResponse);
+    rpc RetrieveAuthor(RetrieveAuthorRequest) returns (RetrieveAuthorResponse);
+}
