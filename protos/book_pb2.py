@@ -12,27 +12,28 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
+from protos import author_pb2 as protos_dot_author__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11protos/book.proto\x12\x04\x62ook\"4\n\x04\x42ook\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"5\n\x11\x43reateBookRequest\x12\r\n\x05title\x18\x01 \x01(\t\x12\x11\n\tauthor_id\x18\x02 \x01(\r\"!\n\x13RetrieveBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\"A\n\x11UpdateBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"\x1f\n\x11\x44\x65leteBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\".\n\x12SingleBookResponse\x12\x18\n\x04\x62ook\x18\x01 \x01(\x0b\x32\n.book.Book2\x95\x02\n\x0b\x42ookService\x12?\n\nCreateBook\x12\x17.book.CreateBookRequest\x1a\x18.book.SingleBookResponse\x12\x43\n\x0cRetrieveBook\x12\x19.book.RetrieveBookRequest\x1a\x18.book.SingleBookResponse\x12?\n\nUpdateBook\x12\x17.book.UpdateBookRequest\x1a\x18.book.SingleBookResponse\x12?\n\nDeleteBook\x12\x17.book.DeleteBookRequest\x1a\x18.book.SingleBookResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11protos/book.proto\x12\x04\x62ook\x1a\x13protos/author.proto\"4\n\x04\x42ook\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"5\n\x11\x43reateBookRequest\x12\r\n\x05title\x18\x01 \x01(\t\x12\x11\n\tauthor_id\x18\x02 \x01(\r\"!\n\x13RetrieveBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\"A\n\x11UpdateBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"A\n\x11\x44\x65leteBookRequest\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tauthor_id\x18\x03 \x01(\r\"O\n\x12SingleBookResponse\x12\n\n\x02id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x1e\n\x06\x61uthor\x18\x03 \x01(\x0b\x32\x0e.author.Author2\x95\x02\n\x0b\x42ookService\x12?\n\nCreateBook\x12\x17.book.CreateBookRequest\x1a\x18.book.SingleBookResponse\x12\x43\n\x0cRetrieveBook\x12\x19.book.RetrieveBookRequest\x1a\x18.book.SingleBookResponse\x12?\n\nUpdateBook\x12\x17.book.UpdateBookRequest\x1a\x18.book.SingleBookResponse\x12?\n\nDeleteBook\x12\x17.book.DeleteBookRequest\x1a\x18.book.SingleBookResponseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.book_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_BOOK']._serialized_start=27
-  _globals['_BOOK']._serialized_end=79
-  _globals['_CREATEBOOKREQUEST']._serialized_start=81
-  _globals['_CREATEBOOKREQUEST']._serialized_end=134
-  _globals['_RETRIEVEBOOKREQUEST']._serialized_start=136
-  _globals['_RETRIEVEBOOKREQUEST']._serialized_end=169
-  _globals['_UPDATEBOOKREQUEST']._serialized_start=171
-  _globals['_UPDATEBOOKREQUEST']._serialized_end=236
-  _globals['_DELETEBOOKREQUEST']._serialized_start=238
-  _globals['_DELETEBOOKREQUEST']._serialized_end=269
-  _globals['_SINGLEBOOKRESPONSE']._serialized_start=271
-  _globals['_SINGLEBOOKRESPONSE']._serialized_end=317
-  _globals['_BOOKSERVICE']._serialized_start=320
-  _globals['_BOOKSERVICE']._serialized_end=597
+  _globals['_BOOK']._serialized_start=48
+  _globals['_BOOK']._serialized_end=100
+  _globals['_CREATEBOOKREQUEST']._serialized_start=102
+  _globals['_CREATEBOOKREQUEST']._serialized_end=155
+  _globals['_RETRIEVEBOOKREQUEST']._serialized_start=157
+  _globals['_RETRIEVEBOOKREQUEST']._serialized_end=190
+  _globals['_UPDATEBOOKREQUEST']._serialized_start=192
+  _globals['_UPDATEBOOKREQUEST']._serialized_end=257
+  _globals['_DELETEBOOKREQUEST']._serialized_start=259
+  _globals['_DELETEBOOKREQUEST']._serialized_end=324
+  _globals['_SINGLEBOOKRESPONSE']._serialized_start=326
+  _globals['_SINGLEBOOKRESPONSE']._serialized_end=405
+  _globals['_BOOKSERVICE']._serialized_start=408
+  _globals['_BOOKSERVICE']._serialized_end=685
 # @@protoc_insertion_point(module_scope)

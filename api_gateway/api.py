@@ -3,7 +3,7 @@ from google.protobuf.json_format import MessageToDict
 from grpc.aio import AioRpcError
 
 from api_gateway.config import create_app
-from schemas.book import CreateUpdateBookSchema, BookSchema
+from schemas.book import CreateUpdateBookSchema
 from protos import book_pb2_grpc, book_pb2
 from clients import book_client
 
@@ -28,7 +28,7 @@ async def create_book(data: CreateUpdateBookSchema,
 
 @app.get('/books/{id}')
 async def get_book(id: int,
-                   client=Depends(book_client.book_grpc_client)):
+                   client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
     try:
         book = await client.RetrieveBook(
             book_pb2.RetrieveBookRequest(
@@ -43,7 +43,7 @@ async def get_book(id: int,
 @app.put('/books/{id}')
 async def update_book(id: int,
                       data: CreateUpdateBookSchema,
-                      client=Depends(book_client.book_grpc_client)):
+                      client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
     try:
         book = await client.UpdateBook(
             book_pb2.UpdateBookRequest(
@@ -58,7 +58,7 @@ async def update_book(id: int,
 
 @app.delete('/books/{id}')
 async def delete_book(id: int,
-                      client=Depends(book_client.book_grpc_client)):
+                      client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
     try:
         book = await client.DeleteBook(
             book_pb2.DeleteBookRequest(
