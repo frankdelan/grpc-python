@@ -18,3 +18,8 @@
 ```python
     python book_server.py
 ```
+
+### For starting Author service
+```python
+    python author_server.py
+```
