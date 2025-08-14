@@ -3,7 +3,7 @@ import asyncio
 from grpc import aio
 from protos import book_pb2_grpc
 
-from db.config import Settings
+from db.config import settings
 from db.settings.db_config import create_tables
 from services.book import BookService
 
@@ -21,4 +21,4 @@ async def start(address: str):
 
 
 if __name__ == "__main__":
-    asyncio.run(start(Settings.BOOK_GRPC_SERVER_ADDR))
+    asyncio.run(start(settings.BOOK_GRPC_SERVER_ADDR))

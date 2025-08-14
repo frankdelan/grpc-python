@@ -39,24 +39,14 @@ class AuthorServiceStub(object):
         Args:
             channel: A grpc.Channel.
         """
-        self.CreateAuthor = channel.unary_unary(
-                '/author.AuthorService/CreateAuthor',
-                request_serializer=protos_dot_author__pb2.CreateAuthorRequest.SerializeToString,
-                response_deserializer=protos_dot_author__pb2.SingleAuthorResponse.FromString,
-                _registered_method=True)
         self.RetrieveAuthor = channel.unary_unary(
                 '/author.AuthorService/RetrieveAuthor',
                 request_serializer=protos_dot_author__pb2.RetrieveAuthorRequest.SerializeToString,
-                response_deserializer=protos_dot_author__pb2.SingleAuthorResponse.FromString,
+                response_deserializer=protos_dot_author__pb2.AuthorWithBooksResponse.FromString,
                 _registered_method=True)
-        self.UpdateAuthor = channel.unary_unary(
-                '/author.AuthorService/UpdateAuthor',
-                request_serializer=protos_dot_author__pb2.UpdateAuthorRequest.SerializeToString,
-                response_deserializer=protos_dot_author__pb2.SingleAuthorResponse.FromString,
-                _registered_method=True)
-        self.DeleteAuthor = channel.unary_unary(
-                '/author.AuthorService/DeleteAuthor',
-                request_serializer=protos_dot_author__pb2.DeleteAuthorRequest.SerializeToString,
+        self.CreateAuthor = channel.unary_unary(
+                '/author.AuthorService/CreateAuthor',
+                request_serializer=protos_dot_author__pb2.CreateAuthorRequest.SerializeToString,
                 response_deserializer=protos_dot_author__pb2.SingleAuthorResponse.FromString,
                 _registered_method=True)
 
@@ -64,25 +54,13 @@ class AuthorServiceStub(object):
 class AuthorServiceServicer(object):
     """Missing associated documentation comment in .proto file."""
 
-    def CreateAuthor(self, request, context):
-        """Missing associated documentation comment in .proto file."""
-        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
-
     def RetrieveAuthor(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
-    def UpdateAuthor(self, request, context):
-        """Missing associated documentation comment in .proto file."""
-        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
-
-    def DeleteAuthor(self, request, context):
+    def CreateAuthor(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
@@ -91,24 +69,14 @@ class AuthorServiceServicer(object):
 
 def add_AuthorServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
-            'CreateAuthor': grpc.unary_unary_rpc_method_handler(
-                    servicer.CreateAuthor,
-                    request_deserializer=protos_dot_author__pb2.CreateAuthorRequest.FromString,
-                    response_serializer=protos_dot_author__pb2.SingleAuthorResponse.SerializeToString,
-            ),
             'RetrieveAuthor': grpc.unary_unary_rpc_method_handler(
                     servicer.RetrieveAuthor,
                     request_deserializer=protos_dot_author__pb2.RetrieveAuthorRequest.FromString,
-                    response_serializer=protos_dot_author__pb2.SingleAuthorResponse.SerializeToString,
+                    response_serializer=protos_dot_author__pb2.AuthorWithBooksResponse.SerializeToString,
             ),
-            'UpdateAuthor': grpc.unary_unary_rpc_method_handler(
-                    servicer.UpdateAuthor,
-                    request_deserializer=protos_dot_author__pb2.UpdateAuthorRequest.FromString,
-                    response_serializer=protos_dot_author__pb2.SingleAuthorResponse.SerializeToString,
-            ),
-            'DeleteAuthor': grpc.unary_unary_rpc_method_handler(
-                    servicer.DeleteAuthor,
-                    request_deserializer=protos_dot_author__pb2.DeleteAuthorRequest.FromString,
+            'CreateAuthor': grpc.unary_unary_rpc_method_handler(
+                    servicer.CreateAuthor,
+                    request_deserializer=protos_dot_author__pb2.CreateAuthorRequest.FromString,
                     response_serializer=protos_dot_author__pb2.SingleAuthorResponse.SerializeToString,
             ),
     }
@@ -121,33 +89,6 @@ def add_AuthorServiceServicer_to_server(servicer, server):
  # This class is part of an EXPERIMENTAL API.
 class AuthorService(object):
     """Missing associated documentation comment in .proto file."""
-
-    @staticmethod
-    def CreateAuthor(request,
-            target,
-            options=(),
-            channel_credentials=None,
-            call_credentials=None,
-            insecure=False,
-            compression=None,
-            wait_for_ready=None,
-            timeout=None,
-            metadata=None):
-        return grpc.experimental.unary_unary(
-            request,
-            target,
-            '/author.AuthorService/CreateAuthor',
-            protos_dot_author__pb2.CreateAuthorRequest.SerializeToString,
-            protos_dot_author__pb2.SingleAuthorResponse.FromString,
-            options,
-            channel_credentials,
-            insecure,
-            call_credentials,
-            compression,
-            wait_for_ready,
-            timeout,
-            metadata,
-            _registered_method=True)
 
     @staticmethod
     def RetrieveAuthor(request,
@@ -165,7 +106,7 @@ class AuthorService(object):
             target,
             '/author.AuthorService/RetrieveAuthor',
             protos_dot_author__pb2.RetrieveAuthorRequest.SerializeToString,
-            protos_dot_author__pb2.SingleAuthorResponse.FromString,
+            protos_dot_author__pb2.AuthorWithBooksResponse.FromString,
             options,
             channel_credentials,
             insecure,
@@ -177,7 +118,7 @@ class AuthorService(object):
             _registered_method=True)
 
     @staticmethod
-    def UpdateAuthor(request,
+    def CreateAuthor(request,
             target,
             options=(),
             channel_credentials=None,
@@ -190,35 +131,8 @@ class AuthorService(object):
         return grpc.experimental.unary_unary(
             request,
             target,
-            '/author.AuthorService/UpdateAuthor',
-            protos_dot_author__pb2.UpdateAuthorRequest.SerializeToString,
-            protos_dot_author__pb2.SingleAuthorResponse.FromString,
-            options,
-            channel_credentials,
-            insecure,
-            call_credentials,
-            compression,
-            wait_for_ready,
-            timeout,
-            metadata,
-            _registered_method=True)
-
-    @staticmethod
-    def DeleteAuthor(request,
-            target,
-            options=(),
-            channel_credentials=None,
-            call_credentials=None,
-            insecure=False,
-            compression=None,
-            wait_for_ready=None,
-            timeout=None,
-            metadata=None):
-        return grpc.experimental.unary_unary(
-            request,
-            target,
-            '/author.AuthorService/DeleteAuthor',
-            protos_dot_author__pb2.DeleteAuthorRequest.SerializeToString,
+            '/author.AuthorService/CreateAuthor',
+            protos_dot_author__pb2.CreateAuthorRequest.SerializeToString,
             protos_dot_author__pb2.SingleAuthorResponse.FromString,
             options,
             channel_credentials,

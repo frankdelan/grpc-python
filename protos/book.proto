@@ -2,13 +2,7 @@ syntax = "proto3";
 
 package book;
 
-import "protos/author.proto";
-
-message Book {
-    uint32 id = 1;
-    string title = 2;
-    uint32 author_id = 3;
-}
+import "protos/entities.proto";
 
 message CreateBookRequest {
     string title = 1;
@@ -35,7 +29,7 @@ message DeleteBookRequest {
 message SingleBookResponse {
     uint32 id = 1;
     string title = 2;
-    author.Author author = 3;
+    entities.Author author = 3;
 }
 
 

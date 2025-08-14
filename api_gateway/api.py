@@ -3,9 +3,10 @@ from google.protobuf.json_format import MessageToDict
 from grpc.aio import AioRpcError
 
 from api_gateway.config import create_app
+from schemas.author import CreateUpdateAuthorSchema
 from schemas.book import CreateUpdateBookSchema
-from protos import book_pb2_grpc, book_pb2
-from clients import book_client
+from protos import author_pb2, author_pb2_grpc, book_pb2_grpc, book_pb2
+from clients import book_client, author_client
 
 app = create_app(
     custom_static_url=True
@@ -13,8 +14,10 @@ app = create_app(
 
 
 @app.post('/books/create')
-async def create_book(data: CreateUpdateBookSchema,
-                      client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
+async def create_book(
+    data: CreateUpdateBookSchema,
+    client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client),
+)-> dict:
     try:
         book = await client.CreateBook(
             book_pb2.CreateBookRequest(
@@ -27,8 +30,10 @@ async def create_book(data: CreateUpdateBookSchema,
 
 
 @app.get('/books/{id}')
-async def get_book(id: int,
-                   client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
+async def get_book(
+    id: int,
+    client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client),
+) -> dict:
     try:
         book = await client.RetrieveBook(
             book_pb2.RetrieveBookRequest(
@@ -41,9 +46,11 @@ async def get_book(id: int,
 
 
 @app.put('/books/{id}')
-async def update_book(id: int,
-                      data: CreateUpdateBookSchema,
-                      client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
+async def update_book(
+    id: int,
+    data: CreateUpdateBookSchema,
+    client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client),
+) -> dict:
     try:
         book = await client.UpdateBook(
             book_pb2.UpdateBookRequest(
@@ -57,8 +64,10 @@ async def update_book(id: int,
 
 
 @app.delete('/books/{id}')
-async def delete_book(id: int,
-                      client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client)):
+async def delete_book(
+    id: int,
+    client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client),
+) -> dict:
     try:
         book = await client.DeleteBook(
             book_pb2.DeleteBookRequest(
@@ -68,3 +77,35 @@ async def delete_book(id: int,
     except AioRpcError as e:
         raise HTTPException(status_code=400, detail=e.details())
     return MessageToDict(book)
+
+
+@app.post('/authors/create')
+async def create_author(
+    data: CreateUpdateAuthorSchema,
+    client: author_pb2_grpc.AuthorServiceStub = Depends(author_client.author_grpc_client),
+) -> dict:
+    try:
+        author = await client.CreateAuthor(
+            author_pb2.CreateAuthorRequest(
+                **data.model_dump()
+            ), timeout=5
+        )
+    except AioRpcError as e:
+        raise HTTPException(status_code=400, detail=e.details())
+    return MessageToDict(author)
+
+
+@app.post('/authors/{id}')
+async def create_author(
+    id: int,
+    client: author_pb2_grpc.AuthorServiceStub = Depends(author_client.author_grpc_client),
+) -> dict:
+    try:
+        author = await client.RetrieveAuthor(
+            author_pb2.RetrieveAuthorRequest(
+                id=id,
+            ), timeout=5
+        )
+    except AioRpcError as e:
+        raise HTTPException(status_code=400, detail=e.details())
+    return MessageToDict(author)

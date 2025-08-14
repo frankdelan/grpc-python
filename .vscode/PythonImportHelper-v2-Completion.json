@@ -1,0 +1,1276 @@
+[
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "MessageToDict",
+        "importPath": "google.protobuf.json_format",
+        "description": "google.protobuf.json_format",
+        "isExtraImport": true,
+        "detail": "google.protobuf.json_format",
+        "documentation": {}
+    },
+    {
+        "label": "MessageToDict",
+        "importPath": "google.protobuf.json_format",
+        "description": "google.protobuf.json_format",
+        "isExtraImport": true,
+        "detail": "google.protobuf.json_format",
+        "documentation": {}
+    },
+    {
+        "label": "MessageToDict",
+        "importPath": "google.protobuf.json_format",
+        "description": "google.protobuf.json_format",
+        "isExtraImport": true,
+        "detail": "google.protobuf.json_format",
+        "documentation": {}
+    },
+    {
+        "label": "AioRpcError",
+        "importPath": "grpc.aio",
+        "description": "grpc.aio",
+        "isExtraImport": true,
+        "detail": "grpc.aio",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "api_gateway.config",
+        "description": "api_gateway.config",
+        "isExtraImport": true,
+        "detail": "api_gateway.config",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateAuthorSchema",
+        "importPath": "schemas.author",
+        "description": "schemas.author",
+        "isExtraImport": true,
+        "detail": "schemas.author",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateBookSchema",
+        "importPath": "schemas.book",
+        "description": "schemas.book",
+        "isExtraImport": true,
+        "detail": "schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "entities_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "entities_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "entities_pb2",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "author_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_pb2_grpc",
+        "importPath": "protos",
+        "description": "protos",
+        "isExtraImport": true,
+        "detail": "protos",
+        "documentation": {}
+    },
+    {
+        "label": "book_client",
+        "importPath": "clients",
+        "description": "clients",
+        "isExtraImport": true,
+        "detail": "clients",
+        "documentation": {}
+    },
+    {
+        "label": "author_client",
+        "importPath": "clients",
+        "description": "clients",
+        "isExtraImport": true,
+        "detail": "clients",
+        "documentation": {}
+    },
+    {
+        "label": "get_redoc_html",
+        "importPath": "fastapi.openapi.docs",
+        "description": "fastapi.openapi.docs",
+        "isExtraImport": true,
+        "detail": "fastapi.openapi.docs",
+        "documentation": {}
+    },
+    {
+        "label": "get_swagger_ui_html",
+        "importPath": "fastapi.openapi.docs",
+        "description": "fastapi.openapi.docs",
+        "isExtraImport": true,
+        "detail": "fastapi.openapi.docs",
+        "documentation": {}
+    },
+    {
+        "label": "get_swagger_ui_oauth2_redirect_html",
+        "importPath": "fastapi.openapi.docs",
+        "description": "fastapi.openapi.docs",
+        "isExtraImport": true,
+        "detail": "fastapi.openapi.docs",
+        "documentation": {}
+    },
+    {
+        "label": "grpc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "grpc",
+        "description": "grpc",
+        "detail": "grpc",
+        "documentation": {}
+    },
+    {
+        "label": "aio",
+        "importPath": "grpc",
+        "description": "grpc",
+        "isExtraImport": true,
+        "detail": "grpc",
+        "documentation": {}
+    },
+    {
+        "label": "aio",
+        "importPath": "grpc",
+        "description": "grpc",
+        "isExtraImport": true,
+        "detail": "grpc",
+        "documentation": {}
+    },
+    {
+        "label": "aio",
+        "importPath": "grpc",
+        "description": "grpc",
+        "isExtraImport": true,
+        "detail": "grpc",
+        "documentation": {}
+    },
+    {
+        "label": "aio",
+        "importPath": "grpc",
+        "description": "grpc",
+        "isExtraImport": true,
+        "detail": "grpc",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "db.config",
+        "description": "db.config",
+        "isExtraImport": true,
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "db.config",
+        "description": "db.config",
+        "isExtraImport": true,
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "db.config",
+        "description": "db.config",
+        "isExtraImport": true,
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "db.config",
+        "description": "db.config",
+        "isExtraImport": true,
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "db.config",
+        "description": "db.config",
+        "isExtraImport": true,
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declared_attr",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "db.entities",
+        "description": "db.entities",
+        "isExtraImport": true,
+        "detail": "db.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "db.entities",
+        "description": "db.entities",
+        "isExtraImport": true,
+        "detail": "db.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "importPath": "db.entities",
+        "description": "db.entities",
+        "isExtraImport": true,
+        "detail": "db.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "db.entities",
+        "description": "db.entities",
+        "isExtraImport": true,
+        "detail": "db.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "db.entities",
+        "description": "db.entities",
+        "isExtraImport": true,
+        "detail": "db.entities",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMixin",
+        "importPath": "db.entities.mixin",
+        "description": "db.entities.mixin",
+        "isExtraImport": true,
+        "detail": "db.entities.mixin",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMixin",
+        "importPath": "db.entities.mixin",
+        "description": "db.entities.mixin",
+        "isExtraImport": true,
+        "detail": "db.entities.mixin",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseRepository",
+        "importPath": "db.repositories.base",
+        "description": "db.repositories.base",
+        "isExtraImport": true,
+        "detail": "db.repositories.base",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseRepository",
+        "importPath": "db.repositories.base",
+        "description": "db.repositories.base",
+        "isExtraImport": true,
+        "detail": "db.repositories.base",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "async_session_factory",
+        "importPath": "db.settings.db_config",
+        "description": "db.settings.db_config",
+        "isExtraImport": true,
+        "detail": "db.settings.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "create_tables",
+        "importPath": "db.settings.db_config",
+        "description": "db.settings.db_config",
+        "isExtraImport": true,
+        "detail": "db.settings.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "create_tables",
+        "importPath": "db.settings.db_config",
+        "description": "db.settings.db_config",
+        "isExtraImport": true,
+        "detail": "db.settings.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorRepository",
+        "importPath": "db.repositories.author",
+        "description": "db.repositories.author",
+        "isExtraImport": true,
+        "detail": "db.repositories.author",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorServiceServicer",
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "isExtraImport": true,
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BookRepository",
+        "importPath": "db.repositories.book",
+        "description": "db.repositories.book",
+        "isExtraImport": true,
+        "detail": "db.repositories.book",
+        "documentation": {}
+    },
+    {
+        "label": "author_grpc_client",
+        "importPath": "clients.author_client",
+        "description": "clients.author_client",
+        "isExtraImport": true,
+        "detail": "clients.author_client",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorService",
+        "importPath": "services.author",
+        "description": "services.author",
+        "isExtraImport": true,
+        "detail": "services.author",
+        "documentation": {}
+    },
+    {
+        "label": "BookService",
+        "importPath": "services.book",
+        "description": "services.book",
+        "isExtraImport": true,
+        "detail": "services.book",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api_gateway.api",
+        "description": "api_gateway.api",
+        "peekOfCode": "app = create_app(\n    custom_static_url=True\n)\n@app.post('/books/create')\nasync def create_book(\n    data: CreateUpdateBookSchema,\n    client: book_pb2_grpc.BookServiceStub = Depends(book_client.book_grpc_client),\n)-> dict:\n    try:\n        book = await client.CreateBook(",
+        "detail": "api_gateway.api",
+        "documentation": {}
+    },
+    {
+        "label": "configurate_docs",
+        "kind": 2,
+        "importPath": "api_gateway.config",
+        "description": "api_gateway.config",
+        "peekOfCode": "def configurate_docs(app: FastAPI):\n    @app.get(\"/docs\", include_in_schema=False)\n    async def custom_swagger_ui_html():\n        return get_swagger_ui_html(\n            openapi_url=app.openapi_url,\n            title=app.title + \" - Swagger UI\",\n            oauth2_redirect_url=app.swagger_ui_oauth2_redirect_url,\n            swagger_js_url=\"https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js\",\n            swagger_css_url=\"https://unpkg.com/swagger-ui-dist@5/swagger-ui.css\",\n        )",
+        "detail": "api_gateway.config",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "api_gateway.config",
+        "description": "api_gateway.config",
+        "peekOfCode": "def create_app(custom_static_url: bool = False):\n    app = FastAPI(\n        docs_url=None if custom_static_url else '/docs',\n        redoc_url=None if custom_static_url else '/redoc')\n    if custom_static_url:\n        configurate_docs(app)\n    return app",
+        "detail": "api_gateway.config",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "kind": 6,
+        "importPath": "db.entities.models.author",
+        "description": "db.entities.models.author",
+        "peekOfCode": "class Author(BaseMixin, Base):\n    name: Mapped[str]\n    age: Mapped[int]\n    alive: Mapped[bool]\n    books: Mapped[list['Book']] = relationship(back_populates='author', lazy='selectin')",
+        "detail": "db.entities.models.author",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "db.entities.models.book",
+        "description": "db.entities.models.book",
+        "peekOfCode": "class Book(BaseMixin, Base):\n    title: Mapped[str]\n    author_id: Mapped[int] = mapped_column(ForeignKey('author.id'))\n    author: Mapped['Author'] = relationship(back_populates='books', lazy='selectin')",
+        "detail": "db.entities.models.book",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "db.entities.base",
+        "description": "db.entities.base",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "db.entities.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMixin",
+        "kind": 6,
+        "importPath": "db.entities.mixin",
+        "description": "db.entities.mixin",
+        "peekOfCode": "class BaseMixin:\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    def to_dict(self) -> dict:\n        # Метод для конвертации модели в словарь\n        colums_names = inspect(self.__class__).columns.keys()\n        return {k: self.__dict__[k] for k in colums_names}\n    @declared_attr\n    def __tablename__(cls):\n        return cls.__name__.lower()",
+        "detail": "db.entities.mixin",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorRepository",
+        "kind": 6,
+        "importPath": "db.repositories.author",
+        "description": "db.repositories.author",
+        "peekOfCode": "class AuthorRepository(DatabaseRepository):\n    model = Author",
+        "detail": "db.repositories.author",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRepository",
+        "kind": 6,
+        "importPath": "db.repositories.base",
+        "description": "db.repositories.base",
+        "peekOfCode": "class BaseRepository(ABC):\n    @abstractmethod\n    async def create(self, **kwargs):\n        raise NotImplementedError\n    @abstractmethod\n    async def retrieve(self, **kwargs):\n        raise NotImplementedError\n    @abstractmethod\n    async def update(self, **kwargs):\n        raise NotImplementedError",
+        "detail": "db.repositories.base",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseRepository",
+        "kind": 6,
+        "importPath": "db.repositories.base",
+        "description": "db.repositories.base",
+        "peekOfCode": "class DatabaseRepository(BaseRepository):\n    model = None\n    async def create(self, values: dict):\n        async with async_session_factory() as session:\n            stmt = insert(self.model).values(**values).returning(self.model)\n            obj = await session.execute(stmt)\n            await session.commit()\n            return obj.scalar_one_or_none()\n    async def retrieve(self, id: int):\n        async with async_session_factory() as session:",
+        "detail": "db.repositories.base",
+        "documentation": {}
+    },
+    {
+        "label": "BookRepository",
+        "kind": 6,
+        "importPath": "db.repositories.book",
+        "description": "db.repositories.book",
+        "peekOfCode": "class BookRepository(DatabaseRepository):\n    model = Book",
+        "detail": "db.repositories.book",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "db.settings.db_config",
+        "description": "db.settings.db_config",
+        "peekOfCode": "DATABASE_URL = (f'postgresql+asyncpg://{settings.POSTGRES_USER}:{settings.POSTGRES_PASSWORD}@{settings.POSTGRES_HOST}:'\n                f'{settings.POSTGRES_PORT}/{settings.POSTGRES_DATABASE}')\nasync_engine = create_async_engine(DATABASE_URL)\nasync_session_factory = async_sessionmaker(async_engine, expire_on_commit=False)\nasync def create_tables():\n    async with async_engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
+        "detail": "db.settings.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine",
+        "kind": 5,
+        "importPath": "db.settings.db_config",
+        "description": "db.settings.db_config",
+        "peekOfCode": "async_engine = create_async_engine(DATABASE_URL)\nasync_session_factory = async_sessionmaker(async_engine, expire_on_commit=False)\nasync def create_tables():\n    async with async_engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
+        "detail": "db.settings.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "async_session_factory",
+        "kind": 5,
+        "importPath": "db.settings.db_config",
+        "description": "db.settings.db_config",
+        "peekOfCode": "async_session_factory = async_sessionmaker(async_engine, expire_on_commit=False)\nasync def create_tables():\n    async with async_engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)",
+        "detail": "db.settings.db_config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "db.config",
+        "description": "db.config",
+        "peekOfCode": "class Settings:\n    POSTGRES_USER = os.environ.get(\"POSTGRES_USER\")\n    POSTGRES_PASSWORD = os.environ.get(\"POSTGRES_PASSWORD\")\n    POSTGRES_HOST = os.environ.get(\"POSTGRES_HOST\")\n    POSTGRES_PORT = os.environ.get(\"POSTGRES_PORT\")\n    POSTGRES_DATABASE = os.environ.get(\"POSTGRES_DATABASE\")\n    BOOK_GRPC_SERVER_ADDR = os.environ.get(\"BOOK_GRPC_SERVER_ADDR\")\n    AUTHOR_GRPC_SERVER_ADDR = os.environ.get(\"AUTHOR_GRPC_SERVER_ADDR\")\nsettings = Settings()",
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "db.config",
+        "description": "db.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "db.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "protos.author_pb2",
+        "description": "protos.author_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nfrom protos import entities_pb2 as protos_dot_entities__pb2\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x13protos/author.proto\\x12\\x06\\x61uthor\\x1a\\x15protos/entities.proto\\\"#\\n\\x15RetrieveAuthorRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\\"?\\n\\x13\\x43reateAuthorRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x02 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x03 \\x01(\\x08\\\"L\\n\\x14SingleAuthorResponse\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x03 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x04 \\x01(\\x08\\\"n\\n\\x17\\x41uthorWithBooksResponse\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x03 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x04 \\x01(\\x08\\x12\\x1d\\n\\x05\\x62ooks\\x18\\x05 \\x03(\\x0b\\x32\\x0e.entities.Book2\\xac\\x01\\n\\rAuthorService\\x12P\\n\\x0eRetrieveAuthor\\x12\\x1d.author.RetrieveAuthorRequest\\x1a\\x1f.author.AuthorWithBooksResponse\\x12I\\n\\x0c\\x43reateAuthor\\x12\\x1b.author.CreateAuthorRequest\\x1a\\x1c.author.SingleAuthorResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.author_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_RETRIEVEAUTHORREQUEST']._serialized_start=54\n  _globals['_RETRIEVEAUTHORREQUEST']._serialized_end=89",
+        "detail": "protos.author_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "protos.author_pb2",
+        "description": "protos.author_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x13protos/author.proto\\x12\\x06\\x61uthor\\x1a\\x15protos/entities.proto\\\"#\\n\\x15RetrieveAuthorRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\\"?\\n\\x13\\x43reateAuthorRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x02 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x03 \\x01(\\x08\\\"L\\n\\x14SingleAuthorResponse\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x03 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x04 \\x01(\\x08\\\"n\\n\\x17\\x41uthorWithBooksResponse\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x03 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x04 \\x01(\\x08\\x12\\x1d\\n\\x05\\x62ooks\\x18\\x05 \\x03(\\x0b\\x32\\x0e.entities.Book2\\xac\\x01\\n\\rAuthorService\\x12P\\n\\x0eRetrieveAuthor\\x12\\x1d.author.RetrieveAuthorRequest\\x1a\\x1f.author.AuthorWithBooksResponse\\x12I\\n\\x0c\\x43reateAuthor\\x12\\x1b.author.CreateAuthorRequest\\x1a\\x1c.author.SingleAuthorResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.author_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_RETRIEVEAUTHORREQUEST']._serialized_start=54\n  _globals['_RETRIEVEAUTHORREQUEST']._serialized_end=89\n  _globals['_CREATEAUTHORREQUEST']._serialized_start=91\n  _globals['_CREATEAUTHORREQUEST']._serialized_end=154",
+        "detail": "protos.author_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "protos.author_pb2",
+        "description": "protos.author_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.author_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_RETRIEVEAUTHORREQUEST']._serialized_start=54\n  _globals['_RETRIEVEAUTHORREQUEST']._serialized_end=89\n  _globals['_CREATEAUTHORREQUEST']._serialized_start=91\n  _globals['_CREATEAUTHORREQUEST']._serialized_end=154\n  _globals['_SINGLEAUTHORRESPONSE']._serialized_start=156",
+        "detail": "protos.author_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorServiceStub",
+        "kind": 6,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "class AuthorServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.RetrieveAuthor = channel.unary_unary(\n                '/author.AuthorService/RetrieveAuthor',\n                request_serializer=protos_dot_author__pb2.RetrieveAuthorRequest.SerializeToString,",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorServiceServicer",
+        "kind": 6,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "class AuthorServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def RetrieveAuthor(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def CreateAuthor(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorService",
+        "kind": 6,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "class AuthorService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def RetrieveAuthor(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_AuthorServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "def add_AuthorServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'RetrieveAuthor': grpc.unary_unary_rpc_method_handler(\n                    servicer.RetrieveAuthor,\n                    request_deserializer=protos_dot_author__pb2.RetrieveAuthorRequest.FromString,\n                    response_serializer=protos_dot_author__pb2.AuthorWithBooksResponse.SerializeToString,\n            ),\n            'CreateAuthor': grpc.unary_unary_rpc_method_handler(\n                    servicer.CreateAuthor,\n                    request_deserializer=protos_dot_author__pb2.CreateAuthorRequest.FromString,",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "GRPC_GENERATED_VERSION",
+        "kind": 5,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "GRPC_GENERATED_VERSION = '1.64.1'\nGRPC_VERSION = grpc.__version__\nEXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "GRPC_VERSION",
+        "kind": 5,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "GRPC_VERSION = grpc.__version__\nEXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "EXPECTED_ERROR_RELEASE",
+        "kind": 5,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "EXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "SCHEDULED_RELEASE_DATE",
+        "kind": 5,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "SCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(\n        f'The grpc package installed is at version {GRPC_VERSION},'",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "_version_not_supported",
+        "kind": 5,
+        "importPath": "protos.author_pb2_grpc",
+        "description": "protos.author_pb2_grpc",
+        "peekOfCode": "_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(\n        f'The grpc package installed is at version {GRPC_VERSION},'\n        + f' but the generated code in protos/author_pb2_grpc.py depends on'",
+        "detail": "protos.author_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "protos.book_pb2",
+        "description": "protos.book_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nfrom protos import entities_pb2 as protos_dot_entities__pb2\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x11protos/book.proto\\x12\\x04\\x62ook\\x1a\\x15protos/entities.proto\\\"5\\n\\x11\\x43reateBookRequest\\x12\\r\\n\\x05title\\x18\\x01 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x02 \\x01(\\r\\\"!\\n\\x13RetrieveBookRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\\"A\\n\\x11UpdateBookRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x03 \\x01(\\r\\\"A\\n\\x11\\x44\\x65leteBookRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x03 \\x01(\\r\\\"Q\\n\\x12SingleBookResponse\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12 \\n\\x06\\x61uthor\\x18\\x03 \\x01(\\x0b\\x32\\x10.entities.Author2\\x95\\x02\\n\\x0b\\x42ookService\\x12?\\n\\nCreateBook\\x12\\x17.book.CreateBookRequest\\x1a\\x18.book.SingleBookResponse\\x12\\x43\\n\\x0cRetrieveBook\\x12\\x19.book.RetrieveBookRequest\\x1a\\x18.book.SingleBookResponse\\x12?\\n\\nUpdateBook\\x12\\x17.book.UpdateBookRequest\\x1a\\x18.book.SingleBookResponse\\x12?\\n\\nDeleteBook\\x12\\x17.book.DeleteBookRequest\\x1a\\x18.book.SingleBookResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.book_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_CREATEBOOKREQUEST']._serialized_start=50\n  _globals['_CREATEBOOKREQUEST']._serialized_end=103",
+        "detail": "protos.book_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "protos.book_pb2",
+        "description": "protos.book_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x11protos/book.proto\\x12\\x04\\x62ook\\x1a\\x15protos/entities.proto\\\"5\\n\\x11\\x43reateBookRequest\\x12\\r\\n\\x05title\\x18\\x01 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x02 \\x01(\\r\\\"!\\n\\x13RetrieveBookRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\\"A\\n\\x11UpdateBookRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x03 \\x01(\\r\\\"A\\n\\x11\\x44\\x65leteBookRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x03 \\x01(\\r\\\"Q\\n\\x12SingleBookResponse\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12 \\n\\x06\\x61uthor\\x18\\x03 \\x01(\\x0b\\x32\\x10.entities.Author2\\x95\\x02\\n\\x0b\\x42ookService\\x12?\\n\\nCreateBook\\x12\\x17.book.CreateBookRequest\\x1a\\x18.book.SingleBookResponse\\x12\\x43\\n\\x0cRetrieveBook\\x12\\x19.book.RetrieveBookRequest\\x1a\\x18.book.SingleBookResponse\\x12?\\n\\nUpdateBook\\x12\\x17.book.UpdateBookRequest\\x1a\\x18.book.SingleBookResponse\\x12?\\n\\nDeleteBook\\x12\\x17.book.DeleteBookRequest\\x1a\\x18.book.SingleBookResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.book_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_CREATEBOOKREQUEST']._serialized_start=50\n  _globals['_CREATEBOOKREQUEST']._serialized_end=103\n  _globals['_RETRIEVEBOOKREQUEST']._serialized_start=105\n  _globals['_RETRIEVEBOOKREQUEST']._serialized_end=138",
+        "detail": "protos.book_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "protos.book_pb2",
+        "description": "protos.book_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.book_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_CREATEBOOKREQUEST']._serialized_start=50\n  _globals['_CREATEBOOKREQUEST']._serialized_end=103\n  _globals['_RETRIEVEBOOKREQUEST']._serialized_start=105\n  _globals['_RETRIEVEBOOKREQUEST']._serialized_end=138\n  _globals['_UPDATEBOOKREQUEST']._serialized_start=140",
+        "detail": "protos.book_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "BookServiceStub",
+        "kind": 6,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "class BookServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.CreateBook = channel.unary_unary(\n                '/book.BookService/CreateBook',\n                request_serializer=protos_dot_book__pb2.CreateBookRequest.SerializeToString,",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BookServiceServicer",
+        "kind": 6,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "class BookServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def CreateBook(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def RetrieveBook(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BookService",
+        "kind": 6,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "class BookService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def CreateBook(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_BookServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "def add_BookServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'CreateBook': grpc.unary_unary_rpc_method_handler(\n                    servicer.CreateBook,\n                    request_deserializer=protos_dot_book__pb2.CreateBookRequest.FromString,\n                    response_serializer=protos_dot_book__pb2.SingleBookResponse.SerializeToString,\n            ),\n            'RetrieveBook': grpc.unary_unary_rpc_method_handler(\n                    servicer.RetrieveBook,\n                    request_deserializer=protos_dot_book__pb2.RetrieveBookRequest.FromString,",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "GRPC_GENERATED_VERSION",
+        "kind": 5,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "GRPC_GENERATED_VERSION = '1.64.1'\nGRPC_VERSION = grpc.__version__\nEXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "GRPC_VERSION",
+        "kind": 5,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "GRPC_VERSION = grpc.__version__\nEXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "EXPECTED_ERROR_RELEASE",
+        "kind": 5,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "EXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "SCHEDULED_RELEASE_DATE",
+        "kind": 5,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "SCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(\n        f'The grpc package installed is at version {GRPC_VERSION},'",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "_version_not_supported",
+        "kind": 5,
+        "importPath": "protos.book_pb2_grpc",
+        "description": "protos.book_pb2_grpc",
+        "peekOfCode": "_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(\n        f'The grpc package installed is at version {GRPC_VERSION},'\n        + f' but the generated code in protos/book_pb2_grpc.py depends on'",
+        "detail": "protos.book_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "protos.entities_pb2",
+        "description": "protos.entities_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x15protos/entities.proto\\x12\\x08\\x65ntities\\\"4\\n\\x04\\x42ook\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x03 \\x01(\\r\\\">\\n\\x06\\x41uthor\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x03 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x04 \\x01(\\x08\\x62\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.entities_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_BOOK']._serialized_start=35\n  _globals['_BOOK']._serialized_end=87\n  _globals['_AUTHOR']._serialized_start=89",
+        "detail": "protos.entities_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "protos.entities_pb2",
+        "description": "protos.entities_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x15protos/entities.proto\\x12\\x08\\x65ntities\\\"4\\n\\x04\\x42ook\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\r\\n\\x05title\\x18\\x02 \\x01(\\t\\x12\\x11\\n\\tauthor_id\\x18\\x03 \\x01(\\r\\\">\\n\\x06\\x41uthor\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\r\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x0b\\n\\x03\\x61ge\\x18\\x03 \\x01(\\r\\x12\\r\\n\\x05\\x61live\\x18\\x04 \\x01(\\x08\\x62\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.entities_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_BOOK']._serialized_start=35\n  _globals['_BOOK']._serialized_end=87\n  _globals['_AUTHOR']._serialized_start=89\n  _globals['_AUTHOR']._serialized_end=151",
+        "detail": "protos.entities_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "protos.entities_pb2",
+        "description": "protos.entities_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.entities_pb2', _globals)\nif not _descriptor._USE_C_DESCRIPTORS:\n  DESCRIPTOR._loaded_options = None\n  _globals['_BOOK']._serialized_start=35\n  _globals['_BOOK']._serialized_end=87\n  _globals['_AUTHOR']._serialized_start=89\n  _globals['_AUTHOR']._serialized_end=151\n# @@protoc_insertion_point(module_scope)",
+        "detail": "protos.entities_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "GRPC_GENERATED_VERSION",
+        "kind": 5,
+        "importPath": "protos.entities_pb2_grpc",
+        "description": "protos.entities_pb2_grpc",
+        "peekOfCode": "GRPC_GENERATED_VERSION = '1.64.1'\nGRPC_VERSION = grpc.__version__\nEXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True",
+        "detail": "protos.entities_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "GRPC_VERSION",
+        "kind": 5,
+        "importPath": "protos.entities_pb2_grpc",
+        "description": "protos.entities_pb2_grpc",
+        "peekOfCode": "GRPC_VERSION = grpc.__version__\nEXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:",
+        "detail": "protos.entities_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "EXPECTED_ERROR_RELEASE",
+        "kind": 5,
+        "importPath": "protos.entities_pb2_grpc",
+        "description": "protos.entities_pb2_grpc",
+        "peekOfCode": "EXPECTED_ERROR_RELEASE = '1.65.0'\nSCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(",
+        "detail": "protos.entities_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "SCHEDULED_RELEASE_DATE",
+        "kind": 5,
+        "importPath": "protos.entities_pb2_grpc",
+        "description": "protos.entities_pb2_grpc",
+        "peekOfCode": "SCHEDULED_RELEASE_DATE = 'June 25, 2024'\n_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(\n        f'The grpc package installed is at version {GRPC_VERSION},'",
+        "detail": "protos.entities_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "_version_not_supported",
+        "kind": 5,
+        "importPath": "protos.entities_pb2_grpc",
+        "description": "protos.entities_pb2_grpc",
+        "peekOfCode": "_version_not_supported = False\ntry:\n    from grpc._utilities import first_version_is_lower\n    _version_not_supported = first_version_is_lower(GRPC_VERSION, GRPC_GENERATED_VERSION)\nexcept ImportError:\n    _version_not_supported = True\nif _version_not_supported:\n    warnings.warn(\n        f'The grpc package installed is at version {GRPC_VERSION},'\n        + f' but the generated code in protos/entities_pb2_grpc.py depends on'",
+        "detail": "protos.entities_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorSchema",
+        "kind": 6,
+        "importPath": "schemas.author",
+        "description": "schemas.author",
+        "peekOfCode": "class AuthorSchema(BaseModel):\n    id: int\n    name: str\n    age: int\n    alive: bool\nclass CreateUpdateAuthorSchema(BaseModel):\n    name: str\n    age: int\n    alive: bool",
+        "detail": "schemas.author",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateAuthorSchema",
+        "kind": 6,
+        "importPath": "schemas.author",
+        "description": "schemas.author",
+        "peekOfCode": "class CreateUpdateAuthorSchema(BaseModel):\n    name: str\n    age: int\n    alive: bool",
+        "detail": "schemas.author",
+        "documentation": {}
+    },
+    {
+        "label": "BookSchema",
+        "kind": 6,
+        "importPath": "schemas.book",
+        "description": "schemas.book",
+        "peekOfCode": "class BookSchema(BaseModel):\n    id: int\n    title: str\n    author_id: int\nclass CreateUpdateBookSchema(BaseModel):\n    title: str\n    author_id: int",
+        "detail": "schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateBookSchema",
+        "kind": 6,
+        "importPath": "schemas.book",
+        "description": "schemas.book",
+        "peekOfCode": "class CreateUpdateBookSchema(BaseModel):\n    title: str\n    author_id: int",
+        "detail": "schemas.book",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorService",
+        "kind": 6,
+        "importPath": "services.author",
+        "description": "services.author",
+        "peekOfCode": "class AuthorService(AuthorServiceServicer):\n    def __init__(self):\n        self.repository = AuthorRepository()\n    async def CreateAuthor(self, request, context) -> author_pb2.SingleAuthorResponse:\n        author = await self.repository.create(\n            MessageToDict(request, preserving_proto_field_name=True, always_print_fields_with_no_presence=True)\n        )\n        if author:\n            return author_pb2.SingleAuthorResponse(**author.to_dict())\n        return author_pb2.SingleAuthorResponse()",
+        "detail": "services.author",
+        "documentation": {}
+    },
+    {
+        "label": "BookService",
+        "kind": 6,
+        "importPath": "services.book",
+        "description": "services.book",
+        "peekOfCode": "class BookService(book_pb2_grpc.BookServiceServicer):\n    def __init__(self, author_stub: author_pb2_grpc.AuthorServiceStub = author_grpc_client()):\n        self.repository = BookRepository()\n        self.author_stub: author_pb2_grpc.AuthorServiceStub = author_stub\n    async def CreateBook(self, request, context):\n        book = await self.repository.create(MessageToDict(request, preserving_proto_field_name=True))\n        if book:\n            author_stub = await author_grpc_client()\n            author = await author_stub.RetrieveAuthor(\n                author_pb2.RetrieveAuthorRequest(",
+        "detail": "services.book",
+        "documentation": {}
+    }
+]

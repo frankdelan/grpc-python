@@ -14,3 +14,4 @@ class Settings:
     BOOK_GRPC_SERVER_ADDR = os.environ.get("BOOK_GRPC_SERVER_ADDR")
     AUTHOR_GRPC_SERVER_ADDR = os.environ.get("AUTHOR_GRPC_SERVER_ADDR")
 
+settings = Settings()

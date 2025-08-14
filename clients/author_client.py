@@ -1,10 +1,10 @@
-import grpc
+from grpc import aio
 
-from db.config import Settings
+from db.config import settings
 from protos import author_pb2_grpc
 
 
 async def author_grpc_client():
-    channel = grpc.aio.insecure_channel(Settings.AUTHOR_GRPC_SERVER_ADDR)
+    channel = aio.insecure_channel(settings.AUTHOR_GRPC_SERVER_ADDR)
     client = author_pb2_grpc.AuthorServiceStub(channel)
     return client

@@ -12,27 +12,24 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
+from protos import entities_pb2 as protos_dot_entities__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13protos/author.proto\x12\x06\x61uthor\">\n\x06\x41uthor\x12\n\n\x02id\x18\x01 \x01(\r\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0b\n\x03\x61ge\x18\x03 \x01(\r\x12\r\n\x05\x61live\x18\x04 \x01(\x08\"?\n\x13\x43reateAuthorRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03\x61ge\x18\x02 \x01(\r\x12\r\n\x05\x61live\x18\x03 \x01(\x08\"#\n\x15RetrieveAuthorRequest\x12\n\n\x02id\x18\x01 \x01(\r\"K\n\x13UpdateAuthorRequest\x12\n\n\x02id\x18\x01 \x01(\r\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0b\n\x03\x61ge\x18\x03 \x01(\r\x12\r\n\x05\x61live\x18\x04 \x01(\x08\"!\n\x13\x44\x65leteAuthorRequest\x12\n\n\x02id\x18\x01 \x01(\r\"6\n\x14SingleAuthorResponse\x12\x1e\n\x06\x61uthor\x18\x01 \x01(\x0b\x32\x0e.author.Author2\xbf\x02\n\rAuthorService\x12I\n\x0c\x43reateAuthor\x12\x1b.author.CreateAuthorRequest\x1a\x1c.author.SingleAuthorResponse\x12M\n\x0eRetrieveAuthor\x12\x1d.author.RetrieveAuthorRequest\x1a\x1c.author.SingleAuthorResponse\x12I\n\x0cUpdateAuthor\x12\x1b.author.UpdateAuthorRequest\x1a\x1c.author.SingleAuthorResponse\x12I\n\x0c\x44\x65leteAuthor\x12\x1b.author.DeleteAuthorRequest\x1a\x1c.author.SingleAuthorResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13protos/author.proto\x12\x06\x61uthor\x1a\x15protos/entities.proto\"#\n\x15RetrieveAuthorRequest\x12\n\n\x02id\x18\x01 \x01(\r\"?\n\x13\x43reateAuthorRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03\x61ge\x18\x02 \x01(\r\x12\r\n\x05\x61live\x18\x03 \x01(\x08\"L\n\x14SingleAuthorResponse\x12\n\n\x02id\x18\x01 \x01(\r\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0b\n\x03\x61ge\x18\x03 \x01(\r\x12\r\n\x05\x61live\x18\x04 \x01(\x08\"n\n\x17\x41uthorWithBooksResponse\x12\n\n\x02id\x18\x01 \x01(\r\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0b\n\x03\x61ge\x18\x03 \x01(\r\x12\r\n\x05\x61live\x18\x04 \x01(\x08\x12\x1d\n\x05\x62ooks\x18\x05 \x03(\x0b\x32\x0e.entities.Book2\xac\x01\n\rAuthorService\x12P\n\x0eRetrieveAuthor\x12\x1d.author.RetrieveAuthorRequest\x1a\x1f.author.AuthorWithBooksResponse\x12I\n\x0c\x43reateAuthor\x12\x1b.author.CreateAuthorRequest\x1a\x1c.author.SingleAuthorResponseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.author_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_AUTHOR']._serialized_start=31
-  _globals['_AUTHOR']._serialized_end=93
-  _globals['_CREATEAUTHORREQUEST']._serialized_start=95
-  _globals['_CREATEAUTHORREQUEST']._serialized_end=158
-  _globals['_RETRIEVEAUTHORREQUEST']._serialized_start=160
-  _globals['_RETRIEVEAUTHORREQUEST']._serialized_end=195
-  _globals['_UPDATEAUTHORREQUEST']._serialized_start=197
-  _globals['_UPDATEAUTHORREQUEST']._serialized_end=272
-  _globals['_DELETEAUTHORREQUEST']._serialized_start=274
-  _globals['_DELETEAUTHORREQUEST']._serialized_end=307
-  _globals['_SINGLEAUTHORRESPONSE']._serialized_start=309
-  _globals['_SINGLEAUTHORRESPONSE']._serialized_end=363
-  _globals['_AUTHORSERVICE']._serialized_start=366
-  _globals['_AUTHORSERVICE']._serialized_end=685
+  _globals['_RETRIEVEAUTHORREQUEST']._serialized_start=54
+  _globals['_RETRIEVEAUTHORREQUEST']._serialized_end=89
+  _globals['_CREATEAUTHORREQUEST']._serialized_start=91
+  _globals['_CREATEAUTHORREQUEST']._serialized_end=154
+  _globals['_SINGLEAUTHORRESPONSE']._serialized_start=156
+  _globals['_SINGLEAUTHORRESPONSE']._serialized_end=232
+  _globals['_AUTHORWITHBOOKSRESPONSE']._serialized_start=234
+  _globals['_AUTHORWITHBOOKSRESPONSE']._serialized_end=344
+  _globals['_AUTHORSERVICE']._serialized_start=347
+  _globals['_AUTHORSERVICE']._serialized_end=519
 # @@protoc_insertion_point(module_scope)

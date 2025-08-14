@@ -2,42 +2,34 @@ syntax = "proto3";
 
 package author;
 
-
-message Author {
-    uint32 id = 1;
-    string name = 2;
-    uint32 age = 3;
-    bool alive = 4;
-}
-
-message CreateAuthorRequest{
-    string name = 1;
-    uint32 age = 2;
-    bool alive = 3;
-}
+import "protos/entities.proto";
 
 message RetrieveAuthorRequest {
     uint32 id = 1;
 }
 
-message UpdateAuthorRequest {
+message CreateAuthorRequest {
+    string name = 1;
+    uint32 age = 2;
+    bool alive = 3;
+}
+
+message SingleAuthorResponse {
     uint32 id = 1;
     string name = 2;
     uint32 age = 3;
     bool alive = 4;
 }
 
-message DeleteAuthorRequest {
+message AuthorWithBooksResponse {
     uint32 id = 1;
-}
-
-message SingleAuthorResponse{
-    Author author = 1;
+    string name = 2;
+    uint32 age = 3;
+    bool alive = 4;
+    repeated entities.Book books = 5;
 }
 
 service AuthorService {
+    rpc RetrieveAuthor(RetrieveAuthorRequest) returns (AuthorWithBooksResponse);
     rpc CreateAuthor(CreateAuthorRequest) returns (SingleAuthorResponse);
-    rpc RetrieveAuthor(RetrieveAuthorRequest) returns (SingleAuthorResponse);
-    rpc UpdateAuthor(UpdateAuthorRequest) returns (SingleAuthorResponse);
-    rpc DeleteAuthor(DeleteAuthorRequest) returns (SingleAuthorResponse);
 }
